@@ -13,15 +13,15 @@ Tested On: Fedora 40
 Not yet. Still planning
 
 ## To-Do
-❌Set up rofi to look better
+❌ Set up rofi to look better
 
-.. Waybar configuration
+⏳ Waybar configuration
 
-✅Pywal and Pywalfox integration
+✅ Pywal and Pywalfox integration
 
-✅Notification setup. (needs styling)
+✅ Notification setup. (needs styling)
 
-❌Spicetify integration
+❌ Spicetify integration
 
  and some more stuff.
 
