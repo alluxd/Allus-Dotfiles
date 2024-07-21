@@ -1,0 +1,20 @@
+import = ["/home/allu/.cache/wal/colors-alacritty.toml"]
+
+
+
+[window]
+padding.x = 10
+padding.y = 10
+dynamic_title = true
+opacity = 0.8
+blur = true
+
+[font]
+normal.family = 'Roboto Mono'
+size = 12
+
+[env]
+TERM = "alacritty"
+
+[cursor.style]
+shape = 'block'
