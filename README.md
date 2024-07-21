@@ -14,9 +14,13 @@ Not yet. Still planning
 
 ## To-Do
 ❌Set up rofi to look better
+
 .. Waybar configuration
+
 ✅Pywal and Pywalfox integration
+
 ✅Notification setup. (needs styling)
+
 ❌Spicetify integration
 
  and some more stuff.
