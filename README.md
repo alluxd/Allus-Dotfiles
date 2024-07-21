@@ -27,7 +27,11 @@ Not yet. Still planning
 
 ## Credits (READ!)
 > [rofi-wifimenu](https://github.com/ericmurphyxyz/rofi-wifi-menu) by Eric Murphy
+
 > [Rofimoji](https://github.com/fdw/rofimoji)
+
 > [rofi-bluetooth](https://github.com/nickclyde/rofi-bluetooth) by nickclyde
+
 > [@sane1090x](https://www.youtube.com/@sane1090x0) for the ricing tutorial :)
 
+ ---
