@@ -174,7 +174,7 @@ label:focus {
 }
 
 #tray {
-    background-color: #2980b9;
+    background-color: @color4;
 }
 
 #tray > .passive {
@@ -225,7 +225,7 @@ label:focus {
 #custom-applauncher {
     background-color: @color1;
     padding: 7px;
-    border-radius: 3px;
+    border-radius: 15px;
     transition: 0.3s;
 }
 
@@ -233,4 +233,12 @@ label:focus {
     background-color: @color2;
 }
 
+#custom-power {
+    background-color: @color1;
+    padding: 7px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
 
+#custom-spotify {
+   }

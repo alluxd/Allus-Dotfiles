@@ -9,11 +9,11 @@ wallpapers in /Pictures/Wallpapers
 ## OS
 Tested On: Fedora 40
 
-## Laptop Support
+## Laptop Support (battery and stuff)
 Not yet. Still planning
 
 ## To-Do
-❌ Set up rofi to look better
+✅ Set up rofi to look better
 
 ⏳ Waybar configuration
 
@@ -34,4 +34,5 @@ Not yet. Still planning
 
 > [@sane1090x](https://www.youtube.com/@sane1090x0) for the ricing tutorial :)
 
+> Rofi styling is also from Eric Murphy :D
  ---

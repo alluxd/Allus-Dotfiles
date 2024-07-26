@@ -4,23 +4,24 @@
     // "position": "bottom", // Waybar position (top|bottom|left|right)
     "height": 28, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
-    "spacing": 6, // Gaps between modules (4px)
+    "spacing": 8, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
         "custom/applauncher",
         "hyprland/workspaces"
     ],
     "modules-center": [
- 
-        "custom/divider",
+        "custom/spotify", 
+        "custom/divider", 
         "clock"
     ],
     "modules-right": [
      "network",
      "pulseaudio",
      "memory",
-     "tray"
-
+     "tray",
+       
+     "custom/power"
     ],
   
     "keyboard-state": {
@@ -52,7 +53,9 @@
 
     "tray": {
         // "icon-size": 21,
-        "spacing": 10
+        "spacing": 10,
+        "tooltip": true,
+        "tooltip-format": "Running apps"
     },
     "clock": {
         // "timezone": "America/New_York",
@@ -113,16 +116,31 @@
    
     "custom/applauncher": {
      "format": "",
-     "on-click": "exec rofi -show drun",
-        "on-click-right": "exec wlogout",
-      "tooltip": true,
-      "tooltip-format": "Left Click: Rofi \n Right Click: System Options"
-    },
+     "on-click": "exec rofi -show drun"
+     },
 
  
     "custom/divider": {
-        "format": ""
+        "format": ""
     },
- 
+    
+    "custom/power": {
+        "format": "",
+        "on-click": "exec wlogout",
+        "on-click-middle": "exec hyprlock",
+        "tooltip": true,
+        "tooltip-format": "Left Click: Power Options \n Middle Click: Lock"
+    },
+
+   "custom/spotify": {
+    "exec": "/usr/bin/python3 ~/.local/bin/mediaplayer.py --player spotify",
+    "format": "{}",
+    "tooltip": true,
+    "tooltip-format": "Up: Next \n Down: Previous \n Click: Pause/Play",
+    "return-type": "json",
+    "on-click": "playerctl play-pause",
+    "on-scroll-up": "playerctl next",
+    "on-scroll-down": "playerctl previous"
+},
    
 }
