@@ -2,6 +2,22 @@
 
 My current dotfiles for Hyprland.
 
+
+!(https://github.com/alluxd/Allus-Dotfiles/screenshots/2024-July-30.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 For wallpapers: https://github.com/JaKooLit/Wallpaper-Bank, or search for ones in wallhaven.cc, they have awesome wallpapers!
 
 ### Status: *Updated on: 30/7/24 at 13:27 IST*
