@@ -1,29 +1,14 @@
-# Dotfiles
+# Hyprland Dotfiles
 
 My current dotfiles for Hyprland.
-I use zsh with the powerlevel10k theme, so you need to install zsh and oh-my-zsh.
 
-For wallpapers: https://github.com/JaKooLit/Wallpaper-Bank. Clone it and paste the
-wallpapers in /Pictures/Wallpapers
+For wallpapers: https://github.com/JaKooLit/Wallpaper-Bank, or search for ones in wallhaven.cc, they have awesome wallpapers!
 
-## OS
-Tested On: Fedora 40
+### Status: *Updated on: 30/7/24 at 13:14 IST*
 
-## Laptop Support (battery and stuff)
-Not yet. Still planning
+## Tested on Fedora 40, it might work on other distros like Arch, Void, NixOS etc. Try it out for yourselves.
 
-## To-Do
-✅ Set up rofi to look better
 
-⏳ Waybar configuration
-
-✅ Pywal and Pywalfox integration
-
-✅ Notification setup. (needs styling)
-
-❌ Spicetify integration
-
- and some more stuff.
 
 ## Credits (READ!)
 > [rofi-wifimenu](https://github.com/ericmurphyxyz/rofi-wifi-menu) by Eric Murphy
@@ -35,4 +20,26 @@ Not yet. Still planning
 > [@sane1090x](https://www.youtube.com/@sane1090x0) for the ricing tutorial :)
 
 > Rofi styling is also from Eric Murphy :D
- ---
+
+
+
+## Stuff you need
+**pywal16
+pywalfox
+bluetoothctl, bluez, bluez-utils
+alacritty
+rofi-lbonn-wayland (for better compatibility)
+hyprland, hyprlock
+dunst
+neovim
+visual studio code (optional)
+nwg-look, swww (you need to build it if both are not available in your package manager)
+tokyonight-gtk-theme (my fav, optional)
+vesktop**
+
+For Fedora users: If you face any missing dependency error while installing nwg-look, swww or rofi-lbonn-wayland, run ``sudo dnf update``, if it still does not fix anything, post the erros to ChatGPT, that is how I got rid of them. Sorry for the unproper documentation on this!
+
+
+
+
+---

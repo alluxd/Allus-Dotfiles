@@ -1,12 +1,11 @@
 // -*- mode: jsonc -*-
 {
-    // "layer": "top", // Waybar at top layer
-    // "position": "bottom", // Waybar position (top|bottom|left|right)
-    "height": 28, // Waybar height (to be removed for auto height)
-    // "width": 1280, // Waybar width
-    "spacing": 8, // Gaps between modules (4px)
-    // Choose the order of the modules
-    "modules-left": [
+    "position": "top",
+    "margin-left": 9,
+    "margin-right": 9,
+    "margin-top": 9,
+    "spacing": 8, 
+        "modules-left": [
         "custom/applauncher",
         "hyprland/workspaces"
     ],
@@ -20,19 +19,11 @@
      "pulseaudio",
      "memory",
      "tray",
-       
+     "power-profiles-daemon", 
      "custom/power"
     ],
   
-    "keyboard-state": {
-        "numlock": true,
-        "capslock": true,
-        "format": "{name} {icon}",
-        "format-icons": {
-            "locked": "",
-            "unlocked": ""
-        }
-    },
+   
   
     "hyprland/workspaces": {
 	"active-only": false,

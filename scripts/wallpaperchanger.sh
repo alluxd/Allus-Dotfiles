@@ -8,9 +8,10 @@ wallpaper_path="$wallpaper_folder/$wallpaper_location"
 
 
 if [[ -f "$wallpaper_path" ]]; then
+    swww img --transition-type grow --transition-pos top --transition-duration 0.5 --transition-fps 60 "$wallpaper_path"
+    sleep 0.7
     ~/.local/bin/wal -i "$wallpaper_path"
-    swww img --transition-type grow --transition-pos 1.854,0.977 --transition-step 90 "$wallpaper_path"
-    sleep 1.8
+    sleep 0.3
     pkill waybar
     hyprctl dispatch exec waybar
     sleep 0.5
