@@ -3,7 +3,7 @@
 My current dotfiles for Hyprland.
 
 
-!(https://github.com/alluxd/Allus-Dotfiles/screenshots/2024-July-30.png)
+![Alt text](https://github.com/alluxd/Allus-Dotfiles/blob/main/screenshots/2024-July-30.png "a title")
 
 
 
