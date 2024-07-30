@@ -4,7 +4,7 @@ My current dotfiles for Hyprland.
 
 For wallpapers: https://github.com/JaKooLit/Wallpaper-Bank, or search for ones in wallhaven.cc, they have awesome wallpapers!
 
-### Status: *Updated on: 30/7/24 at 13:14 IST*
+### Status: *Updated on: 30/7/24 at 13:25 IST*
 
 ## Tested on Fedora 40, it might work on other distros like Arch, Void, NixOS etc. Try it out for yourselves.
 
