@@ -9,12 +9,12 @@
         "custom/applauncher",
         "hyprland/workspaces"
     ],
-    "modules-center": [
-        "custom/spotify", 
+    "modules-center": [ 
         "custom/divider", 
         "clock"
     ],
     "modules-right": [
+     "custom/spotify",
      "network",
      "pulseaudio",
      "memory",
@@ -32,6 +32,7 @@
     "tooltip-format": "Workspaces",
 	"show-special": false,
 	"on-click": "activate",
+	"format": "{icon}",
 	"persistent-workspaces": {
 		"1": [],
 		"2": [],
@@ -39,7 +40,18 @@
 		"4": [],
 		"5": [],
 	},
-	
+	"format-icons": {
+		"1": "一",
+		"2": "二",
+		"3": "三",
+		"4": "四",
+		"5": "五",
+		"6": "六",
+		"7": "七",
+		"8": "八",
+		"9": "九",
+		"10": "十",
+	}
 },
 
     "tray": {
@@ -106,7 +118,9 @@
     },
    
     "custom/applauncher": {
-     "format": "",
+     "format": "",
+     "tooltip": true,
+     "tooltip-format": "Launcher",
      "on-click": "exec rofi -show drun"
      },
 
