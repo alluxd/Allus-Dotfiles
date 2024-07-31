@@ -1,37 +1,11 @@
-# Hyprland Dotfiles - Neptune 🪐
+# Hyprland Dotfiles - Catpuccin 🪐
 
-Rice based on the wallpaper shown below. 
-
-![Alt text](https://github.com/alluxd/Allus-Dotfiles/blob/main/screenshots/2024-July-30.png "a title")
-
-
-
-
-
-
-
-
-
-
-
-For wallpapers: https://github.com/JaKooLit/Wallpaper-Bank, or search for ones in wallhaven.cc, they have awesome wallpapers!
-
-### Changes: [Click me](https://github.com/alluxd/Allus-Dotfiles/blob/main/changes.md)
-
-## Tested on Fedora 40, it might work on other distros like Arch, Void, NixOS etc. Try it out for yourselves.
-
-
+wip
 
 ## Credits (READ!)
 > [rofi-wifimenu](https://github.com/ericmurphyxyz/rofi-wifi-menu) by Eric Murphy
 
 > [Rofimoji](https://github.com/fdw/rofimoji)
-
-> [rofi-bluetooth](https://github.com/nickclyde/rofi-bluetooth) by nickclyde
-
-> [@sane1090x](https://www.youtube.com/@sane1090x0) for the ricing tutorial :)
-
-> Rofi styling is also from Eric Murphy :D
 
 
 
