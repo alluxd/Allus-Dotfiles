@@ -1,0 +1,151 @@
+// -*- mode: jsonc -*-
+{
+    "position": "top",
+    "margin-left": 9,
+    "margin-right": 9,
+    "margin-top": 9,
+    "spacing": 8, 
+        "modules-left": [
+        "custom/applauncher",
+        "hyprland/workspaces"
+    ],
+    "modules-center": [ 
+        "custom/divider", 
+        "clock"
+    ],
+    "modules-right": [
+     "custom/spotify",
+     "network",
+     "pulseaudio",
+     "memory",
+     "tray",
+     "power-profiles-daemon", 
+     "custom/power"
+    ],
+  
+   
+  
+    "hyprland/workspaces": {
+	"active-only": false,
+	"all-outputs": true,
+    "tooltip": "true",
+    "tooltip-format": "Workspaces",
+	"show-special": false,
+	"on-click": "activate",
+	"format": "{icon}",
+	"persistent-workspaces": {
+		"1": [],
+		"2": [],
+		"3": [],
+		"4": [],
+		"5": [],
+	},
+	"format-icons": {
+		"1": "I",
+		"2": "II",
+		"3": "III",
+		"4": "IV",
+		"5": "V",
+		"6": "VI",
+		"7": "VII",
+		"8": "VIII",
+		"9": "IX",
+		"10": "X",
+	}
+},
+
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10,
+        "tooltip": true,
+        "tooltip-format": "Running apps"
+    },
+    "clock": {
+        // "timezone": "America/New_York",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+    "cpu": {
+        "format": " {usage}%",
+        "tooltip": false
+    },
+    "memory": {
+        "format": " {}%",
+        "interval": 10
+
+    },
+
+    "power-profiles-daemon": {
+      "format": "{icon}",
+      "tooltip-format": "Power profile: {profile}",
+      "tooltip": true,
+      "format-icons": {
+        "default": "",
+        "performance": "",
+        "balanced": "",
+        "power-saver": ""
+      }
+    },
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": " {essid}",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "Signal Strength: {signalStrength}% \n Left Click: View WiFi Networks",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "⚠ Disconnected",   
+        "on-click": "~/.local/bin/rofi-wifi-menu.sh"
+    },
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{volume}% {icon} {format_source}",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "tooltip": true,
+        "tooltip-format": "Scroll: Change Volume",
+
+    },
+   
+    "custom/applauncher": {
+     "format": "",
+     "tooltip": true,
+     "tooltip-format": "Launcher",
+     "on-click": "exec rofi -show drun"
+     },
+
+ 
+    "custom/divider": {
+        "format": ""
+    },
+    
+    "custom/power": {
+        "format": "",
+        "on-click": "exec wlogout",
+        "on-click-middle": "exec hyprlock",
+        "tooltip": true,
+        "tooltip-format": "Left Click: Power Options \n Middle Click: Lock"
+    },
+
+   "custom/spotify": {
+    "exec": "/usr/bin/python3 ~/.local/bin/mediaplayer.py --player spotify",
+    "format": "{}",
+    "tooltip": true,
+    "tooltip-format": "Up: Next \n Down: Previous \n Click: Pause/Play",
+    "return-type": "json",
+    "on-click": "playerctl play-pause",
+    "on-scroll-up": "playerctl next",
+    "on-scroll-down": "playerctl previous"
+},
+   
+}
