@@ -1,7 +1,6 @@
-# Hyprland Dotfiles
+# Hyprland Dotfiles - Neptune 🪐
 
-My current dotfiles for Hyprland.
-
+Rice based on the wallpaper shown below. 
 
 ![Alt text](https://github.com/alluxd/Allus-Dotfiles/blob/main/screenshots/2024-July-30.png "a title")
 
