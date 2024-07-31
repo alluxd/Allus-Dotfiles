@@ -5,7 +5,7 @@ Rice based on the wallpaper shown below.
 ![Alt text](https://github.com/alluxd/Allus-Dotfiles/blob/fl-neptune/screenshots/2024-July-30.png "a title")
 
 
-
+This flavour will probably no longer be maintained, so please use this instead: [catppuccin](https://github.com/alluxd/Allus-Dotfiles/tree/catppuccin)
 
 
 
