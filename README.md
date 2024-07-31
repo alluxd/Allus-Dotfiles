@@ -48,7 +48,9 @@ neovim
 visual studio code (optional)
 nwg-look, swww (you need to build it if both are not available in your package manager)
 tokyonight-gtk-theme (my fav, optional)
-vesktop**
+vesktop
+blueman-manager
+sddm**
 
 For Fedora users: If you face any missing dependency error while installing nwg-look, swww or rofi-lbonn-wayland, run ``sudo dnf update``, if it still does not fix anything, post the erros to ChatGPT, that is how I got rid of them. Sorry for the unproper documentation on this!
 
