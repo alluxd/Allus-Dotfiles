@@ -19,8 +19,8 @@ Rice based on Catppuccin Mocha, the dark variant of the soothing pastel Catppucc
 
 ## Programs
 
-### Main
-``hyprland, hyprlock, waybar, rofi-lbonn-wayland (better on wayland), spicetify (spotify from flatpak + spicetify), bluez, bluez-utils, blueman-manager, wlogout, pulseaudio, alacritty, nautilus, wl-copy``
+### Main (very mandatory)
+``hyprland, hyprlock, waybar, rofi-lbonn-wayland (better on wayland), bluez, bluez-utils, blueman-manager, wlogout, pulseaudio, alacritty, nautilus, wl-copy``
 
 ### Daemons and stuff (REQUIRED!)
 **Notifications: Dunst, (or swaync, mako etc.)** (Will work nonetheless of what you choose)
