@@ -17,7 +17,6 @@ My current dotfiles for Hyprland.
 
 For wallpapers: https://github.com/JaKooLit/Wallpaper-Bank, or search for ones in wallhaven.cc, they have awesome wallpapers!
 
-### Status: *Updated on: 30/7/24 at 13:27 IST*
 ### Changes: [Click me](https://github.com/alluxd/Allus-Dotfiles/blob/main/changes.md)
 
 ## Tested on Fedora 40, it might work on other distros like Arch, Void, NixOS etc. Try it out for yourselves.
