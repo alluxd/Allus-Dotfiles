@@ -1,3 +1,7 @@
+No longer maintained, go to [this repo instead.](https://github.com/alluxd/Dotfiles)
+
+
+
 <h3 align="center">
 	<img src="https://media.tenor.com/XSH2M_OiW9MAAAAi/hyprland-logo.gif" width="100" alt="Logo"/><br/>
 </h3>
